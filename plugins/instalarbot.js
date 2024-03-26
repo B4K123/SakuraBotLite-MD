@@ -25,13 +25,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `🧸 *Instalación Automatica* (Termux)
+ const str = `🧸 *Instalação Automatica* (Termux)
    
 ➪ termux-setup-storage
 
-➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
+➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/B4K123/SakuraBotLite-MD/master/sakura.sh | bash
 
-🧸 *Instalación Manual* (Termux) 📍
+🧸 *Instalação Manual* (Termux) 📍
 
 ➪ cd && termux-setup-storage
 
@@ -39,7 +39,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 
-➪ git clone https://github.com/diegojadibot/SakuraBotLite-MD.git && cd SakuraBotLite-MD
+➪ git clone https://github.com/B4K123/SakuraBotLite-MD.git && cd SakuraBotLite-MD
 
 ➪ yarn install
 
@@ -49,7 +49,9 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ npm start
 
-🟢 *Activar El Bot* 🟢
+🟢 *Ativar o Bot* 🟢
+
+➪ls
 
 ➪ cd
 
@@ -57,7 +59,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 
 ➪ npm start
 
-🧸 *Obtener Otro Codigo Qr* 📍
+🧸 *Obter Outro Codigo Qr* 📍
 
 ➪ cd SakuraBotLite-MD
 
@@ -75,7 +77,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '📍 *Ocurrió Un Error*', m);
+    conn.reply(m.chat, '📍 *Ocorreu Um Error*', m);
   }
 };
 handler.command = /^(instalarbot|descargarbot|activarbot)$/i;
