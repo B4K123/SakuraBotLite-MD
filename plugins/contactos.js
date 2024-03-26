@@ -4,6 +4,6 @@ const data = global.contactos.filter(([id, isCreator]) => id && isCreator)
 this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true }}})
 }
 
-handler.command = ['contactos', 'contacto', 'Contactos']  
+handler.command = ['contactos', 'contato', 'Contactos']  
 handler.register = true
 export default handler
