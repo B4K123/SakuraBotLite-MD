@@ -76,8 +76,7 @@ global.channel = '' //Canal Oficial
 
 global.yt = '' //Canal De Youtube
 
-global.md = '
- ' //Github Oficial
+global.md = '' //Github Oficial
 
 global.fb = '' //Facebook Del Propietario
 
