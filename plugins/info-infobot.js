@@ -25,7 +25,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 
 ╭━━━━━━･❪ ❁ ❫ ･━━━━━━
-│➸ *⏰️Actividad*
+│➸ *⏰️Atividade*
 │➸ *${uptime}*
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
@@ -33,7 +33,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 │➸ *🧸Chats*
 │➸ 𝘊𝘩𝘢𝘵𝘴 𝘗𝘳𝘪𝘷𝘢𝘥𝘰𝘴: *${chats.length - groups.length}*
 │➸ 𝘊𝘩𝘢𝘵𝘴 𝘋𝘦 𝘎𝘳𝘶𝘱𝘰𝘴: *${groups.length}* 
-│➸ 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭𝘦𝘴: *${chats.length}* 
+│➸ 𝘊𝘩𝘢𝘵𝘴 𝘛𝘰𝘵𝘢𝘭: *${chats.length}* 
 │
 │•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
 │
@@ -57,13 +57,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
+        mediaUrl: "",
         mediaType: 2,
         previewType: "pdf",
-        title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
+        title: "Maguinho MD!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://atom.bio/sakuralite",
+        sourceUrl: "",
       },
     },
     caption: info,
