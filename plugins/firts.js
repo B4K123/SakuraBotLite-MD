@@ -18,7 +18,7 @@ await m.reply(`👋 Hola ${username}¡!
 
 *⚡️ Escreve !grupos Para Ver os Grupos Oficiais Do Bot 🦊*
 
-📍 ¿Seja Bem vindo, não fique flodando não espere que irei ti responde em breve.`)
+📍 ¿Seja Bem vindo, não fique flodando não espere que irei ti responde em breve. Obrigado pela atenção.`)
 
 user.pc = new Date * 1
 }
