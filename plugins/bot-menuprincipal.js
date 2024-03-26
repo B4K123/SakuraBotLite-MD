@@ -17,10 +17,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
   let txt =`╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
 
-*★ Información De Usuario ★*
+*★ Informação Do Usuario ★*
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🌩 *Nombre:* ${taguser}
+││🌩 *Nome:* ${taguser}
 ││🌩 *Dólares:* ${joincount}
 ││🌩 *Nivel:* ${level}
 ││🌩 *Coins:* ${money}
@@ -28,25 +28,25 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ ---  
 
-*★ Información Del Bot ★* 
+*★ Informação Do Bot ★* 
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││📇 *Usuarios En Total:* ${rtotal}
+││📇 *Usuarios no Total:* ${rtotal}
 ││🌩 *Usuarios Registrados:* ${rtotalreg}
-││📅 *Fecha:* ${date}
+││📅 *Data:* ${date}
 ││🕒 *Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}
-││🔮 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
+││🔮 *Bot Oficial:* ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚄 𝚄m 𝙱𝙾𝚃 𝙾𝙵𝙲'}
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 
 *✦ Info NPM ✦* 
 ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
 │╭─────────────────
-││🌸 *Nombre:* SakuraBotLite
-││📇 *Description:* Bot - JavaScript
+││🌸 *Nome:* SakuraBotLite
+││📇 *Descrição:*
 ││🐢 *Versión:* ${vs}
-││🌹 *Main:* index.js
-││🌦 *Creador:* あ ᴅɪᴇɢᴏ あ
+││🌹 *Instagram:* @081.vitin
+││🌦 *Criador:* あ Maguinho あ
 │╰─────────────────
 ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ ---
 
@@ -54,7 +54,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 │╭─────────────────
 ││ 「𓂃͡Sᴏʟᴜᴄɪᴏɴ ᴀ ᴇʀʀᴏʀᴇs 」
 │├━━━━━━━━━━━━━━━━╯
-│┣➤ Mensajes en espera
+│┣➤ Mensagens em espera
 ││🛠️✎ _!fixmsgespera_
 │┣➤ Mensajes en espera (owner)
 ││🛠️✎ _!dsowner_
