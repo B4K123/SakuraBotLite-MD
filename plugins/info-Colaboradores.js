@@ -27,36 +27,36 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 const document = doc[Math.floor(Math.random() * doc.length)];
  const str = `╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰*
 ┃➸ 𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🧸
-┃➸ 📍𝖢𝗈𝗅𝖺𝖻𝗈𝗋𝖺𝖽𝗈𝗋𝖾𝗌
+┃➸ 📍Meus Parceiros
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 *╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
-┃✣➸ 𝖣𝗂𝖾𝗀𝗈:
-┃ https://github.com/diegojadibot
+┃✣➸ xxxxx:
+┃ 
 ┃
-┃✣➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
-┃https://github.com/MoonContentCreator
+┃✣➸ xxxxx:
 ┃
-┃✣➸ 𝖠𝗓𝖺𝗆𝗂:
-┃ https://github.com/AzamiJs
 ┃
-┃✣➸ 𝖬𝖺𝗋𝗂𝗈:
-┃ https://github.com/elrebelde21
+┃✣➸ xxxx:
+┃ 
+┃
+┃✣➸ xxxx:
+┃ 
 ┃
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
-┋➸ 𝖣𝗂𝖾𝗀𝗈: 
-┋@573012482597
+┋➸ xxxx: 
+┋@
 ┋
-┋➸ 𝖣𝖺𝗇𝗂𝖾𝗅:
-┋@33760536110
+┋➸ xxxxx:
+┋@
 ┋
-┋➸ 𝖠𝗓𝖺𝗆𝗂: 
-┋@5217294888993
+┋➸ xxxx: 
+┋@
 ┋
-┋➸ 𝖬𝖺𝗋𝗂𝗈: 
-┋@5492266613038
+┋➸ xxxxx: 
+┋@
 ┋
 ╰◈ ━━━━━━━ ⸙ ━━━━━━━`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
@@ -71,7 +71,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
     conn.reply(m.chat, '*😻 𝘓𝘰𝘴𝘪𝘦𝘯𝘵𝘰, 𝘌𝘳𝘳𝘰𝘳, 𝘕𝘰 𝘗𝘶𝘦𝘥𝘰 𝘌𝘯𝘷𝘪𝘢𝘳 𝘌𝘭 𝘔𝘦𝘯𝘴𝘢𝘫𝘦!*', m);
   }
 };
-handler.command = /^(colaboradores|Colaboradores)$/i;
+handler.command = /^(colaboradores|meusparceiros)$/i;
 handler.register = true
 handler.exp = 50;
 handler.fail = null;
